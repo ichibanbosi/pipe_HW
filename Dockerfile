@@ -1,3 +1,3 @@
 FROM ubuntu:latest
-RUN apt-get update && apt-get install docker.io git
+RUN apt-get update && apt-get install -y docker.io git
 
